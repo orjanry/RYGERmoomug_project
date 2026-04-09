@@ -1,0 +1,12 @@
+﻿@model IEnumerable<moomug_project.Models.GlobalMugCollection>
+
+@{
+    ViewBag.Title = "Global Mugs Collection";
+    Layout = "_Layout";
+}
+
+<h2 class="display-4">Global Mugs Collection</h2>
+
+<div>
+    @await Html.PartialAsync("_GlobalMugsPartial", Model)
+</div>

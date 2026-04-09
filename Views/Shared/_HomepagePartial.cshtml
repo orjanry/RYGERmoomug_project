@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<div>
+    <div class="text-center">
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <div class="text-center">
+                <a class="text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+            </div>
+        }
+        else
+        {
+            <div class="row justify-content-center align-items-center">
+                <a class="nav-link align-items-center custom-btn" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                <a class="nav-link align-items-center custom-btn" asp-area="Identity" asp-page="/Account/Login">Login</a>
+            </div>
+        }
+    </div>
+</div>

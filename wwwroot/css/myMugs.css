@@ -1,0 +1,91 @@
+﻿/* Container for the mug grid */
+.mug-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Automatically adjust based on screen width */
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Styling for each individual mug card */
+.mug-item {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Push elements apart */
+    align-items: center; /* Center elements horizontally */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    height: auto;
+}
+
+/* Mug image styling */
+.mug-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+/* Mug details container */
+.mug-details {
+    padding: 15px;
+    margin-top: auto;
+}
+
+/* Hover effect for mugs */
+.mug-item:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Enhance shadow on hover */
+}
+
+/* Styling for the heading */
+h3 {
+    color: #495057;
+    font-size: clamp(14px, 2.5vw, 18px); /* Dynamisk tekststørrelse */
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Styling for text inside the mug details */
+.mug-details p {
+    color: #495057;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* For empty mug image */
+.mug-image p {
+    text-align: center;
+    color: #888;
+    font-size: 1.2rem;
+}
+
+.my-mugs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 19px; /* Space between items */
+}
+
+.custom-remove-btn {
+    border-radius: 12px;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.my-mugs-container .mug-button {
+    align-self: stretch;
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+
+.my-mugs-container .mug-button:hover {
+    background-color: #ffdad4;
+    color: #FFFFFF;
+}

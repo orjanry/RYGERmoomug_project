@@ -1,0 +1,135 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #d5e4f5;
+}
+
+.center-layout{
+  text-align: center;
+  align-content: center;
+}
+
+.custom-input-size .form-control {
+  width: 300px;
+  height: 50px;
+  align-items: center;
+}
+
+.custom-login-btn {
+  background-color: cadetblue;
+  color: #b6effb;
+}
+
+.custom-login-btn:hover {
+  color: #13653f;
+}
+
+.btn{
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.btn:hover{
+  color: white;
+  border-radius: 5px;
+  border-color: black;
+  background-color: #1b6ec2;
+}
+
+.custom-btn{
+  text-align: center;
+  vertical-align: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+}
+
+.custom-btn:hover{
+  color: white;
+  border-radius: 5px;
+  border-color: black;
+  background-color: #1b6ec2;
+}
+
+.other{
+  color: black;
+}
+
+.other:hover{
+  color: white;
+}
+
+.custom-back {
+  background-color: white;
+}
+
+.custom-back-oink {
+  background-color: #ffdad4;
+}
+
+.round-div {
+  background-color: #ffdad4;
+  border-radius: 15px;
+}
+
+.custom-add-btn {
+ border-radius: 12px;
+ color: white;
+ border: none;
+ padding: 10px 20px;
+ cursor: pointer;
+ font-size: 16px;
+}
+.custom-add-btn.add-to-mycollection {
+  background-color: lightblue;
+}
+.custom-add-btn.in-mycollection {
+  background-color: lightgreen;
+}
+
+.custom-add-btn:hover {
+  background-color: #00008B; 
+  transform: scale(1.05); 
+  color: #fff; 
+}
+
+.custom-remove-btn {
+  border-radius: 12px;
+  background-color: lightcoral;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+h2{
+  text-align: center;
+}
+
+.message {
+  text-align: center;
+}

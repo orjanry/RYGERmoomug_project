@@ -1,0 +1,26 @@
+﻿.image-text-container {
+    width: 90vw; /* Container width dependent on viewport width for dynamic spacing */
+    max-width: 1200px; /* Set a maximum width to maintain readability on larger screens */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.image-text-layout {
+    display: flex;
+    align-items: stretch; /* Makes both image and text take up equal vertical space */
+    gap: 5px; /* Add dynamic spacing between image and text section based on viewport width */
+}
+
+.image-fill {
+    width: 80%; /* Set the width relative to the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-section {
+    flex: 1; /* Make the text section take up the remaining height to match the image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the text content vertically */
+    background-color: #ffdad4;
+    padding: 20px;
+    border-radius: 10px;
+}

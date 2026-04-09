@@ -1,0 +1,64 @@
+﻿@model IEnumerable<moomug_project.Models.GlobalMugCollection>
+@using Microsoft.AspNetCore.Identity
+@using moomug_project.Data;
+@inject UserManager<ApplicationUser> UserManager
+@inject ApplicationDbContext DbContext
+
+<div class="search-container">
+    <form method="get" asp-action="Index">
+        <input type="text" name="searchQuery" placeholder="Search mugs..."/>
+        <button class="custom-btn" type="submit">Search</button>
+    </form>
+</div>
+
+<div class="global-mugs-container">
+    @{
+        // Get the current logged-in user
+        var user = UserManager.GetUserAsync(User).Result;
+        // Retrieve the IDs of mugs that are already in the user's collection
+        var userCollectionIds = user != null ? DbContext.MyCollections.Where(c => c.ApplicationUserId == user.Id).Select(c => c.GlobalMugCollectionId).ToHashSet() : new HashSet<int>();
+    }
+
+
+    @foreach (var mug in Model)
+    {
+        <div class="mug-item">
+            <div class="mug-image">
+                @if (!string.IsNullOrEmpty(mug.MugImage))
+                {
+                    // Display mug image if available
+                    <img src="@Url.Content(mug.MugImage)" alt="@mug.MugName" />
+                }
+                else
+                {
+                    // Display placeholder text if no image is available
+                    <p>No image available</p>
+                }
+            </div>
+            
+            <div class="mug-content">
+                <div class="mug-details">
+                    <h3>@mug.MugName</h3>
+                    <p>Start Year: @mug.StartYear</p>
+                    <p>End Year: @(mug.EndYear.HasValue ? mug.EndYear.Value.ToString() : "Still in production")</p>
+
+                </div>
+
+                <div class="global-collection-btn">
+                    @if (User.Identity != null && User.Identity.IsAuthenticated)
+                    {
+                    // Check if the mug is already in the user's collection
+                    var isInMyCollection = userCollectionIds.Contains(mug.Id);
+                    <form method="post" asp-controller="MyCollection" asp-action="Add">
+                        <input type="hidden" name="globalMugId" value="@mug.Id" />
+                        <button type="submit" class="custom-add-btn @(isInMyCollection ? "in-mycollection" : "add-to-mycollection")">
+                            @(isInMyCollection ? "Add Again to Collection" : "Add to MyCollection")
+                        </button>
+                    </form>
+                    }
+                </div>
+            </div>
+            
+        </div>
+    }
+</div>

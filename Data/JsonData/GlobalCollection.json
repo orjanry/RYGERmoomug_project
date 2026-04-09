@@ -1,0 +1,926 @@
+[
+  {
+    "MugId": 1,
+    "MugImage": "/images/mugs/mug_green.webp",
+    "MugName": "Mug Green",
+    "StartYear": 1990,
+    "EndYear": 1993
+  },
+  {
+    "MugId": 2,
+    "MugImage": "/images/mugs/mug_blue.webp",
+    "MugName": "Mug Blue",
+    "StartYear": 1990,
+    "EndYear": 1996
+  },
+  {
+    "MugId": 3,
+    "MugImage": "/images/mugs/mug_rose.webp",
+    "MugName": "Mug Rose",
+    "StartYear": 1990,
+    "EndYear": 1993
+  },
+  {
+    "MugId": 4,
+    "MugImage": "/images/mugs/mug_yellow.webp",
+    "MugName": "Mug Yellow",
+    "StartYear": 1990,
+    "EndYear": 1996
+  },
+  {
+    "MugId": 5,
+    "MugImage": "/images/mugs/mug_dark_blue.webp",
+    "MugName": "Mug Dark Blue",
+    "StartYear": 1990,
+    "EndYear": 1999
+  },
+  {
+    "MugId": 6,
+    "MugImage": "/images/mugs/mug_dark_green.webp",
+    "MugName": "Mug Dark Green",
+    "StartYear": 1991,
+    "EndYear": 1996
+  },
+  {
+    "MugId": 7,
+    "MugImage": "/images/mugs/mug_dark_yellow.webp",
+    "MugName": "Mug Dark Yellow",
+    "StartYear": 1991,
+    "EndYear": 1999
+  },
+  {
+    "MugId": 8,
+    "MugImage": "/images/mugs/mug_dark_rose.webp",
+    "MugName": "Mug Dark Rose",
+    "StartYear": 1991,
+    "EndYear": 1999
+  },
+  {
+    "MugId": 9,
+    "MugImage": "/images/mugs/drawing.webp",
+    "MugName": "Drawing",
+    "StartYear": 1996,
+    "EndYear": 2002
+  },
+  {
+    "MugId": 10,
+    "MugImage": "/images/mugs/peace.webp",
+    "MugName": "Peace",
+    "StartYear": 1996,
+    "EndYear": 2002
+  },
+  {
+    "MugId": 11,
+    "MugImage": "/images/mugs/office.webp",
+    "MugName": "Office",
+    "StartYear": 1996,
+    "EndYear": 2002
+  },
+  {
+    "MugId": 12,
+    "MugImage": "/images/mugs/love.webp",
+    "MugName": "Love",
+    "StartYear": 1996,
+    "EndYear": null
+  },
+  {
+    "MugId": 13,
+    "MugImage": "/images/mugs/christmas_greeting.webp",
+    "MugName": "Christmas Greeting",
+    "StartYear": 1997,
+    "EndYear": 2002
+  },
+  {
+    "MugId": 14,
+    "MugImage": "/images/mugs/moominpappa_thinking.webp",
+    "MugName": "Moominpappa Thinking",
+    "StartYear": 1999,
+    "EndYear": 2013
+  },
+  {
+    "MugId": 15,
+    "MugImage": "/images/mugs/moominmamma_and_berries.webp",
+    "MugName": "Moominmamma and Berries",
+    "StartYear": 1999,
+    "EndYear": 2013
+  },
+  {
+    "MugId": 16,
+    "MugImage": "/images/mugs/moomintroll_on_ice.webp",
+    "MugName": "Moomintroll On Ice",
+    "StartYear": 1999,
+    "EndYear": 2012
+  },
+  {
+    "MugId": 17,
+    "MugImage": "/images/mugs/little_my_sliding.webp",
+    "MugName": "Little My Sliding",
+    "StartYear": 1999,
+    "EndYear": 2007
+  },
+  {
+    "MugId": 18,
+    "MugImage": "/images/mugs/millenium.webp",
+    "MugName": "Millenium",
+    "StartYear": 1999,
+    "EndYear": 2000
+  },
+  {
+    "MugId": 19,
+    "MugImage": "/images/mugs/snorkmaiden.webp",
+    "MugName": "Snorkmaiden",
+    "StartYear": 2001,
+    "EndYear": 2012
+  },
+  {
+    "MugId": 20,
+    "MugImage": "/images/mugs/stinky.webp",
+    "MugName": "Stinky",
+    "StartYear": 2001,
+    "EndYear": 2021
+  },
+  {
+    "MugId": 21,
+    "MugImage": "/images/mugs/sniff.webp",
+    "MugName": "Sniff",
+    "StartYear": 2002,
+    "EndYear": 2008
+  },
+  {
+    "MugId": 22,
+    "MugImage": "/images/mugs/snufkin.webp",
+    "MugName": "Snufkin",
+    "StartYear": 2002,
+    "EndYear": 2014
+  },
+  {
+    "MugId": 23,
+    "MugImage": "/images/mugs/family.webp",
+    "MugName": "Family",
+    "StartYear": 2002,
+    "EndYear": 2009
+  },
+  {
+    "MugId": 24,
+    "MugImage": "/images/mugs/fillyjonk.webp",
+    "MugName": "Fillyjonk",
+    "StartYear": 2004,
+    "EndYear": 2013
+  },
+  {
+    "MugId": 25,
+    "MugImage": "/images/mugs/hemulen.webp",
+    "MugName": "Hemulen",
+    "StartYear": 2004,
+    "EndYear": 2013
+  },
+  {
+    "MugId": 26,
+    "MugImage": "/images/mugs/christmas.webp",
+    "MugName": "Christmas Mug",
+    "StartYear": 2004,
+    "EndYear": 2005
+  },
+  {
+    "MugId": 27,
+    "MugImage": "/images/mugs/fazer.webp",
+    "MugName": "Fazer",
+    "StartYear": 2004,
+    "EndYear": 2004
+  },
+  {
+    "MugId": 28,
+    "MugImage": "/images/mugs/groke.webp",
+    "MugName": "Groke",
+    "StartYear": 2005,
+    "EndYear": null
+  },
+  {
+    "MugId": 29,
+    "MugImage": "/images/mugs/moomintroll_daydreaming.webp",
+    "MugName": "Moomintroll Daydreaming",
+    "StartYear": 2005,
+    "EndYear": 2005
+  },
+  {
+    "MugId": 30,
+    "MugImage": "/images/mugs/thingumy_and_bob.webp",
+    "MugName": "Thingumy and Bob",
+    "StartYear": 2005,
+    "EndYear": 2017
+  },
+  {
+    "MugId": 31,
+    "MugImage": "/images/mugs/tooticky.webp",
+    "MugName": "Tooticky",
+    "StartYear": 2006,
+    "EndYear": 2015
+  },
+  {
+    "MugId": 32,
+    "MugImage": "/images/mugs/dive.webp",
+    "MugName": "Dive",
+    "StartYear": 2006,
+    "EndYear": 2006
+  },
+  {
+    "MugId": 33,
+    "MugImage": "/images/mugs/winternight.webp",
+    "MugName": "Winternight",
+    "StartYear": 2006,
+    "EndYear": 2006
+  },
+  {
+    "MugId": 34,
+    "MugImage": "/images/mugs/hattifattiners.webp",
+    "MugName": "Hattifatteners",
+    "StartYear": 2007,
+    "EndYear": null
+  },
+  {
+    "MugId": 35,
+    "MugImage": "/images/mugs/dolphin_dive.webp",
+    "MugName": "Dolphin Dive",
+    "StartYear": 2007,
+    "EndYear": 2007
+  },
+  {
+    "MugId": 36,
+    "MugImage": "/images/mugs/snow_lantern.webp",
+    "MugName": "Snow Lantern",
+    "StartYear": 2007,
+    "EndYear": 2007
+  },
+  {
+    "MugId": 37,
+    "MugImage": "/images/mugs/little_my.webp",
+    "MugName": "Little My",
+    "StartYear": 2008,
+    "EndYear": 2014
+  },
+  {
+    "MugId": 38,
+    "MugImage": "/images/mugs/mymble.webp",
+    "MugName": "Mymble",
+    "StartYear": 2008,
+    "EndYear": null
+  },
+  {
+    "MugId": 39,
+    "MugImage": "/images/mugs/on_the_beach.webp",
+    "MugName": "On The Beach",
+    "StartYear": 2008,
+    "EndYear": 2008
+  },
+  {
+    "MugId": 40,
+    "MugImage": "/images/mugs/sniff_turquoise.webp",
+    "MugName": "Sniff Turquoise",
+    "StartYear": 2008,
+    "EndYear": 2024
+  },
+  {
+    "MugId": 41,
+    "MugImage": "/images/mugs/winter_bonfire.webp",
+    "MugName": "Winter Bonfire",
+    "StartYear": 2008,
+    "EndYear": 2008
+  },
+  {
+    "MugId": 42,
+    "MugImage": "/images/mugs/inspector.webp",
+    "MugName": "Inspector",
+    "StartYear": 2009,
+    "EndYear": 2020
+  },
+  {
+    "MugId": 43,
+    "MugImage": "/images/mugs/siesta.webp",
+    "MugName": "Siesta",
+    "StartYear": 2009,
+    "EndYear": 2009
+  },
+  {
+    "MugId": 44,
+    "MugImage": "/images/mugs/adventure.webp",
+    "MugName": "Adventure",
+    "StartYear": 2009,
+    "EndYear": 2013
+  },
+  {
+    "MugId": 45,
+    "MugImage": "/images/mugs/christmas_surprise.webp",
+    "MugName": "Christmas Surprise",
+    "StartYear": 2009,
+    "EndYear": 2009
+  },
+  {
+    "MugId": 46,
+    "MugImage": "/images/mugs/night_sailing.webp",
+    "MugName": "Night Sailing",
+    "StartYear": 2010,
+    "EndYear": 2010
+  },
+  {
+    "MugId": 47,
+    "MugImage": "/images/mugs/muddler.webp",
+    "MugName": "Muddler",
+    "StartYear": 2010,
+    "EndYear": 2019
+  },
+  {
+    "MugId": 48,
+    "MugImage": "/images/mugs/rose_garden.webp",
+    "MugName": "Rose Garden",
+    "StartYear": 2010,
+    "EndYear": 2010
+  },
+  {
+    "MugId": 49,
+    "MugImage": "/images/mugs/skiing_competition.webp",
+    "MugName": "Skiing Competition",
+    "StartYear": 2010,
+    "EndYear": 2010
+  },
+  {
+    "MugId": 50,
+    "MugImage": "/images/mugs/fuzzy.webp",
+    "MugName": "Fuzzy",
+    "StartYear": 2011,
+    "EndYear": 2019
+  },
+  {
+    "MugId": 51,
+    "MugImage": "/images/mugs/soap_bubbles.webp",
+    "MugName": "Soap Bubbles",
+    "StartYear": 2011,
+    "EndYear": 2011
+  },
+  {
+    "MugId": 52,
+    "MugImage": "/images/mugs/winter_games.webp",
+    "MugName": "Winter Games",
+    "StartYear": 2011,
+    "EndYear": 2011
+  },
+  {
+    "MugId": 53,
+    "MugImage": "/images/mugs/hurray.webp",
+    "MugName": "Hurray!",
+    "StartYear": 2012,
+    "EndYear": 2012
+  },
+  {
+    "MugId": 54,
+    "MugImage": "/images/mugs/mymbles_mother.webp",
+    "MugName": "Mymble's Mother",
+    "StartYear": 2012,
+    "EndYear": null
+  },
+  {
+    "MugId": 55,
+    "MugImage": "/images/mugs/primadonnas_horse.webp",
+    "MugName": "Primadonna's Horse",
+    "StartYear": 2012,
+    "EndYear": 2012
+  },
+  {
+    "MugId": 56,
+    "MugImage": "/images/mugs/stockmann.webp",
+    "MugName": "Stockmann",
+    "StartYear": 2012,
+    "EndYear": 2012
+  },
+  {
+    "MugId": 57,
+    "MugImage": "/images/mugs/winter_forest.webp",
+    "MugName": "Winter Forest",
+    "StartYear": 2012,
+    "EndYear": 2012
+  },
+  {
+    "MugId": 58,
+    "MugImage": "/images/mugs/snorkmaiden_pink.webp",
+    "MugName": "Snorkmaiden",
+    "StartYear": 2013,
+    "EndYear": 2019
+  },
+  {
+    "MugId": 59,
+    "MugImage": "/images/mugs/moomintroll_turquoise.webp",
+    "MugName": "Moomintroll",
+    "StartYear": 2013,
+    "EndYear": 2018
+  },
+  {
+    "MugId": 60,
+    "MugImage": "/images/mugs/snorkmaiden_and_poet.webp",
+    "MugName": "Snorkmaiden and The Poet",
+    "StartYear": 2013,
+    "EndYear": 2013
+  },
+  {
+    "MugId": 61,
+    "MugImage": "/images/mugs/adventure_move.webp",
+    "MugName": "Adventure Move",
+    "StartYear": 2013,
+    "EndYear": null
+  },
+  {
+    "MugId": 62,
+    "MugImage": "/images/mugs/under_the_tree.webp",
+    "MugName": "Under The Tree",
+    "StartYear": 2013,
+    "EndYear": 2013
+  },
+  {
+    "MugId": 63,
+    "MugImage": "/images/mugs/toves_jubileum.webp",
+    "MugName": "Tove's Jubilee",
+    "StartYear": 2014,
+    "EndYear": 2014
+  },
+  {
+    "MugId": 64,
+    "MugImage": "/images/mugs/moominmamma_apricot.webp",
+    "MugName": "Moominmamma",
+    "StartYear": 2014,
+    "EndYear": 2020
+  },
+  {
+    "MugId": 65,
+    "MugImage": "/images/mugs/moominpappa.webp",
+    "MugName": "Moominpappa",
+    "StartYear": 2014,
+    "EndYear": 2022
+  },
+  {
+    "MugId": 66,
+    "MugImage": "/images/mugs/sailing.webp",
+    "MugName": "Sailing with Nibling and Too-ticky",
+    "StartYear": 2014,
+    "EndYear": 2014
+  },
+  {
+    "MugId": 67,
+    "MugImage": "/images/mugs/skiing_with_mrbrisk.webp",
+    "MugName": "Skiing with Mr.Brisk",
+    "StartYear": 2014,
+    "EndYear": 2014
+  },
+  {
+    "MugId": 68,
+    "MugImage": "/images/mugs/moominhouse.webp",
+    "MugName": "Moominhouse",
+    "StartYear": 2015,
+    "EndYear": null
+  },
+  {
+    "MugId": 69,
+    "MugImage": "/images/mugs/keep_waters_clean.webp",
+    "MugName": "Keep Waters Clean",
+    "StartYear": 2015,
+    "EndYear": 2015
+  },
+  {
+    "MugId": 70,
+    "MugImage": "/images/mugs/snufkin_green.webp",
+    "MugName": "Snufkin Green",
+    "StartYear": 2015,
+    "EndYear": null
+  },
+  {
+    "MugId": 71,
+    "MugImage": "/images/mugs/little_my_red.webp",
+    "MugName": "Little My",
+    "StartYear": 2015,
+    "EndYear": 2021
+  },
+  {
+    "MugId": 72,
+    "MugImage": "/images/mugs/moments_on_the_shore.webp",
+    "MugName": "Moment On The Shore",
+    "StartYear": 2015,
+    "EndYear": 2015
+  },
+  {
+    "MugId": 73,
+    "MugImage": "/images/mugs/hibernation.webp",
+    "MugName": "Hibernation",
+    "StartYear": 2015,
+    "EndYear": 2015
+  },
+  {
+    "MugId": 74,
+    "MugImage": "/images/mugs/our_coast.webp",
+    "MugName": "Our Coast",
+    "StartYear": 2016,
+    "EndYear": 2016
+  },
+  {
+    "MugId": 75,
+    "MugImage": "/images/mugs/tooticky_2.webp",
+    "MugName": "Too-Ticky",
+    "StartYear": 2016,
+    "EndYear": null
+  },
+  {
+    "MugId": 76,
+    "MugImage": "/images/mugs/ancestor.webp",
+    "MugName": "Ancestor",
+    "StartYear": 2016,
+    "EndYear": null
+  },
+  {
+    "MugId": 77,
+    "MugImage": "/images/mugs/midsummer.webp",
+    "MugName": "Midsummer",
+    "StartYear": 2016,
+    "EndYear": 2016
+  },
+  {
+    "MugId": 78,
+    "MugImage": "/images/mugs/snow_horse.webp",
+    "MugName": "Snow Horse",
+    "StartYear": 2016,
+    "EndYear": 2016
+  },
+  {
+    "MugId": 79,
+    "MugImage": "/images/mugs/summer_theatre.webp",
+    "MugName": "Summer Theatre",
+    "StartYear": 2017,
+    "EndYear": 2017
+  },
+  {
+    "MugId": 80,
+    "MugImage": "/images/mugs/moominvalley.webp",
+    "MugName": "Moominvalley",
+    "StartYear": 2017,
+    "EndYear": 2017
+  },
+  {
+    "MugId": 81,
+    "MugImage": "/images/mugs/true_to_its_origins.webp",
+    "MugName": "True To Its Origins",
+    "StartYear": 2017,
+    "EndYear": null
+  },
+  {
+    "MugId": 82,
+    "MugImage": "/images/mugs/spring_winter.webp",
+    "MugName": "Spring Winter",
+    "StartYear": 2017,
+    "EndYear": 2017
+  },
+  {
+    "MugId": 83,
+    "MugImage": "/images/mugs/thingumy_and_bob_2.webp",
+    "MugName": "Thingumy and Bob",
+    "StartYear": 2018,
+    "EndYear": null
+  },
+  {
+    "MugId": 84,
+    "MugImage": "/images/mugs/hobgoblin.webp",
+    "MugName": "Hobgoblin",
+    "StartYear": 2018,
+    "EndYear": null
+  },
+  {
+    "MugId": 85,
+    "MugImage": "/images/mugs/going_on_vacation.webp",
+    "MugName": "Going On Vacation",
+    "StartYear": 2018,
+    "EndYear": 2018
+  },
+  {
+    "MugId": 86,
+    "MugImage": "/images/mugs/friendship.webp",
+    "MugName": "Friendship",
+    "StartYear": 2018,
+    "EndYear": null
+  },
+  {
+    "MugId": 87,
+    "MugImage": "/images/mugs/moomins_day_2018.webp",
+    "MugName": "Moomin's Day",
+    "StartYear": 2018,
+    "EndYear": 2018
+  },
+  {
+    "MugId": 88,
+    "MugImage": "/images/mugs/light_snowfall.webp",
+    "MugName": "Light Snowfall",
+    "StartYear": 2018,
+    "EndYear": 2018
+  },
+  {
+    "MugId": 89,
+    "MugImage": "/images/mugs/moomintroll_grassgreen.webp",
+    "MugName": "Moomintroll Grassgreen",
+    "StartYear": 2019,
+    "EndYear": null
+  },
+  {
+    "MugId": 90,
+    "MugImage": "/images/mugs/ninny.webp",
+    "MugName": "Ninny",
+    "StartYear": 2019,
+    "EndYear": null
+  },
+  {
+    "MugId": 91,
+    "MugImage": "/images/mugs/moominvalley_park_japan.webp",
+    "MugName": "Moominvalley Park Japan",
+    "StartYear": 2019,
+    "EndYear": 2022
+  },
+  {
+    "MugId": 92,
+    "MugImage": "/images/mugs/evening_swim.webp",
+    "MugName": "Evening Swim",
+    "StartYear": 2019,
+    "EndYear": 2019
+  },
+  {
+    "MugId": 93,
+    "MugImage": "/images/mugs/the_last_dragon.webp",
+    "MugName": "The Last Dragon",
+    "StartYear": 2019,
+    "EndYear": 2019
+  },
+  {
+    "MugId": 94,
+    "MugImage": "/images/mugs/night_of_the_groke.webp",
+    "MugName": "Night Of The Groke",
+    "StartYear": 2019,
+    "EndYear": 2019
+  },
+  {
+    "MugId": 95,
+    "MugImage": "/images/mugs/golden_tale.webp",
+    "MugName": "Golden Tale",
+    "StartYear": 2019,
+    "EndYear": 2019
+  },
+  {
+    "MugId": 96,
+    "MugImage": "/images/mugs/midwinter.webp",
+    "MugName": "Midwinter",
+    "StartYear": 2019,
+    "EndYear": 2019
+  },
+  {
+    "MugId": 97,
+    "MugImage": "/images/mugs/sleep_well.webp",
+    "MugName": "Sleep Well",
+    "StartYear": 2019,
+    "EndYear": null
+  },
+  {
+    "MugId": 98,
+    "MugImage": "/images/mugs/crown_snow_load.webp",
+    "MugName": "Crown Snow-load",
+    "StartYear": 2019,
+    "EndYear": 2019
+  },
+  {
+    "MugId": 99,
+    "MugImage": "/images/mugs/snorkmaiden_lilac.webp",
+    "MugName": "Snorkmaiden",
+    "StartYear": 2019,
+    "EndYear": null
+  },
+  {
+    "MugId": 100,
+    "MugImage": "/images/mugs/misabel.webp",
+    "MugName": "Misabel",
+    "StartYear": 2020,
+    "EndYear": null
+  },
+  {
+    "MugId": 101,
+    "MugImage": "/images/mugs/relaxing.webp",
+    "MugName": "Relaxing",
+    "StartYear": 2020,
+    "EndYear": 2020
+  },
+  {
+    "MugId": 102,
+    "MugImage": "/images/mugs/the_fire_spirit.webp",
+    "MugName": "The Fire Spirit",
+    "StartYear": 2020,
+    "EndYear": 2020
+  },
+  {
+    "MugId": 103,
+    "MugImage": "/images/mugs/moominmammas_mural.webp",
+    "MugName": "Moominmamma's Mural",
+    "StartYear": 2020,
+    "EndYear": 2020
+  },
+  {
+    "MugId": 104,
+    "MugImage": "/images/mugs/snow_blizzard.webp",
+    "MugName": "Snow Blizzard",
+    "StartYear": 2020,
+    "EndYear": 2020
+  },
+  {
+    "MugId": 105,
+    "MugImage": "/images/mugs/moominmamma_marmelade.webp",
+    "MugName": "Moominmamma Marmelade",
+    "StartYear": 2021,
+    "EndYear": null
+  },
+  {
+    "MugId": 106,
+    "MugImage": "/images/mugs/fillyjonk_grey.webp",
+    "MugName": "Fillyjonk",
+    "StartYear": 2021,
+    "EndYear": null
+  },
+  {
+    "MugId": 107,
+    "MugImage": "/images/mugs/together.webp",
+    "MugName": "Together",
+    "StartYear": 2021,
+    "EndYear": 2021
+  },
+  {
+    "MugId": 108,
+    "MugImage": "/images/mugs/moomins_day_2021.webp",
+    "MugName": "Moomin's Day 2021",
+    "StartYear": 2021,
+    "EndYear": 2021
+  },
+  {
+    "MugId": 109,
+    "MugImage": "/images/mugs/in_the_mountains.webp",
+    "MugName": "In The Mountains",
+    "StartYear": 2021,
+    "EndYear": 2021
+  },
+  {
+    "MugId": 110,
+    "MugImage": "/images/mugs/snow_moonlight.webp",
+    "MugName": "Snow Moonlight",
+    "StartYear": 2021,
+    "EndYear": 2021
+  },
+  {
+    "MugId": 111,
+    "MugImage": "/images/mugs/stinky_in_action.webp",
+    "MugName": "Stinky In Action",
+    "StartYear": 2021,
+    "EndYear": null
+  },
+  {
+    "MugId": 112,
+    "MugImage": "/images/mugs/little_my_and_meadow.webp",
+    "MugName": "Little My and Meadow",
+    "StartYear": 2021,
+    "EndYear": null
+  },
+  {
+    "MugId": 113,
+    "MugImage": "/images/mugs/fishing.webp",
+    "MugName": "Fishing",
+    "StartYear": 2022,
+    "EndYear": 2022
+  },
+  {
+    "MugId": 114,
+    "MugImage": "/images/mugs/ABC_snufkin.webp",
+    "MugName": "ABC Snufkin",
+    "StartYear": 2022,
+    "EndYear": 2022
+  },
+  {
+    "MugId": 115,
+    "MugImage": "/images/mugs/ABC_moomintroll.jpg",
+    "MugName": "ABC Moomintroll",
+    "StartYear": 2022,
+    "EndYear": 2022
+  },
+  {
+    "MugId": 116,
+    "MugImage": "/images/mugs/winter_wonders.webp",
+    "MugName": "Winter Wonders",
+    "StartYear": 2022,
+    "EndYear": 2022
+  },
+  {
+    "MugId": 117,
+    "MugImage": "/images/mugs/moominpappa_grey.webp",
+    "MugName": "Moominpappa Grey",
+    "StartYear": 2023,
+    "EndYear": null
+  },
+  {
+    "MugId": 118,
+    "MugImage": "/images/mugs/hemulen_yellow.webp",
+    "MugName": "Hemulen Yellow",
+    "StartYear": 2023,
+    "EndYear": null
+  },
+  {
+    "MugId": 119,
+    "MugImage": "/images/mugs/moominvalley_park_japan_2023.webp",
+    "MugName": "Moominvalley Park Japan 2023",
+    "StartYear": 2023,
+    "EndYear": null
+  },
+  {
+    "MugId": 120,
+    "MugImage": "/images/mugs/garden_party.webp",
+    "MugName": "Garden Party",
+    "StartYear": 2023,
+    "EndYear": 2023
+  },
+  {
+    "MugId": 121,
+    "MugImage": "/images/mugs/sea_breeze.webp",
+    "MugName": "Sea Breeze",
+    "StartYear": 2023,
+    "EndYear": 2023
+  },
+  {
+    "MugId": 122,
+    "MugImage": "/images/mugs/sea_breeze_platinum.webp",
+    "MugName": "Sea Breeze Platinum",
+    "StartYear": 2023,
+    "EndYear": 2023
+  },
+  {
+    "MugId": 123,
+    "MugImage": "/images/mugs/journey.webp",
+    "MugName": "Journey",
+    "StartYear": 2023,
+    "EndYear": 2023
+  },
+  {
+    "MugId": 124,
+    "MugImage": "/images/mugs/sliding.webp",
+    "MugName": "Sliding",
+    "StartYear": 2023,
+    "EndYear": 2023
+  },
+  {
+    "MugId": 125,
+    "MugImage": "/images/mugs/muskrat_in_a_cave.webp",
+    "MugName": "Muskrat In A Cave",
+    "StartYear": 2023,
+    "EndYear": null
+  },
+  {
+    "MugId": 126,
+    "MugImage": "/images/mugs/sniff_on_the_beach.webp",
+    "MugName": "Sniff On The Beach",
+    "StartYear": 2024,
+    "EndYear": null
+  },
+  {
+    "MugId": 127,
+    "MugImage": "/images/mugs/love_blue.webp",
+    "MugName": "Love Blue",
+    "StartYear": 2024,
+    "EndYear": null
+  },
+  {
+    "MugId": 128,
+    "MugImage": "/images/mugs/berry_season.webp",
+    "MugName": "Berry Season",
+    "StartYear": 2024,
+    "EndYear": 2024
+  },
+  {
+    "MugId": 129,
+    "MugImage": "/images/mugs/moomins_day_2024.webp",
+    "MugName": "Moomin's Day 2024",
+    "StartYear": 2024,
+    "EndYear": 2024
+  },
+  {
+    "MugId": 130,
+    "MugImage": "/images/mugs/ski_jumping.webp",
+    "MugName": "Ski Jumping",
+    "StartYear": 2024,
+    "EndYear": 2024
+  },
+  {
+    "MugId": 131,
+    "MugImage": "/images/mugs/home.webp",
+    "MugName": "Home",
+    "StartYear": 2025,
+    "EndYear": 2025
+  },
+  {
+    "MugId": 132,
+    "MugImage": "/images/mugs/home_at_last.png",
+    "MugName": "Home at Last",
+    "StartYear": 2025,
+    "EndYear": null
+  }
+]

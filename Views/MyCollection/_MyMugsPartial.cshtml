@@ -1,0 +1,153 @@
+﻿@model IEnumerable<moomug_project.Models.MyCollection>
+
+<div class="search-container">
+    <form method="get" asp-action="Index">
+        <input type="text" name="searchQuery" placeholder="Search your collection..."/>
+        <button class="custom-btn" type="submit">Search</button>
+    </form>
+</div>
+
+<div class="my-mugs-container">
+    @foreach (var mug in Model)
+    {
+        <div class="mug-item">
+            <div class="mug-content">
+                <button type="button" class="btn btn-info mug-button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        data-bs-mugid="@mug.Id"
+                        data-bs-mugname="@mug.GlobalMugCollection.MugName"
+                        data-bs-mugimage="@Url.Content(mug.GlobalMugCollection.MugImage)"
+                        data-bs-startyear="@mug.GlobalMugCollection.StartYear"
+                        data-bs-endyear="@mug.GlobalMugCollection.EndYear"
+                        data-bs-mugdetail="@mug.MyMugDetails"
+                        data-bs-mugdescription="@mug.MyDescription"
+                        data-bs-haslabel="@mug.MyHasLabel"
+                        data-bs-isused="@mug.MyIsUsed">
+                    <div class="mug-image">
+                        @if (!string.IsNullOrEmpty(mug.GlobalMugCollection.MugImage))
+                        {
+                        <img src="@Url.Content(mug.GlobalMugCollection.MugImage)" alt="@mug.GlobalMugCollection.MugName"/>
+                        }
+                        else
+                        {
+                        <p>No image available</p>
+                        }
+                    </div>
+
+                    <div class="mug-details">
+                        <h3>@mug.GlobalMugCollection.MugName</h3>
+                        <p>Start Year: @mug.GlobalMugCollection.StartYear</p>
+                        <p>End Year: @(mug.GlobalMugCollection.EndYear.HasValue ? mug.GlobalMugCollection.EndYear.Value.ToString() : "Still in production")</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+    }
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Mug Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Modal content will be dynamically inserted here -->
+                <div class="modal-img">
+                    <img id="modalMugImage" src="" alt="Mug Image" class="img-fluid">
+                </div>
+                <h3 id="modalMugName"></h3>
+                <p id="modalStartYear"></p>
+                <p id="modalEndYear"></p>
+            
+                <div class="mt-4">
+                    <label for="mugDescription" class="form-label">Description:</label>
+                    <textarea id="mugDescription" class="form-control" rows="2" placeholder="Enter a brief description of the mug"></textarea>
+                </div>
+                <div class="mt-3">
+                    <label for="mugDetails" class="form-label">Details:</label>
+                    <textarea id="mugDetails" class="form-control" rows="2" placeholder="Enter additional details about the mug"></textarea>
+                </div>
+                <div class="form-check mt-3">
+                    <input type="checkbox" id="mugIsUsed" class="form-check-input">
+                    <label for="mugIsUsed" class="form-check-label">Is Used</label>
+                </div>
+
+                <div class="form-check mt-2">
+                    <input type="checkbox" id="mugHasLabel" class="form-check-input">
+                    <label for="mugHasLabel" class="form-check-label">Has Label</label>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <form method="post" asp-controller="MyCollection" asp-action="Save">
+                        <!-- Hidden field for Mug ID -->
+                        <input type="hidden" id="mugId" name="id" />
+                        <!-- Inputs to send user data -->
+                        <input type="hidden" id="description" name="description" />
+                        <input type="hidden" id="details" name="details" />
+                        <input type="hidden" id="isUsed" name="isUsed" />
+                        <input type="hidden" id="hasLabel" name="hasLabel" />
+                        <button type="submit" class="btn btn-primary save-btn">Save changes</button>
+                    </form>
+                    <form method="post" asp-controller="MyCollection" asp-action="Delete">
+                        <input type="hidden" id="deleteMugId" name="myMugId"/>
+                        <button type="submit" class="btn btn-danger delete-btn">Delete mug</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // When the modal is triggered
+    var modal = document.getElementById('exampleModal');
+    modal.addEventListener('show.bs.modal', function (event) {
+        // Get data from the button that triggered the modal
+        var button = event.relatedTarget; // Button that triggered the modal
+        var mugId = button.getAttribute('data-bs-mugid');
+        var deleteMugId = button.getAttribute('data-bs-mugid');
+        var mugName = button.getAttribute('data-bs-mugname');
+        var mugImage = button.getAttribute('data-bs-mugimage');
+        var startYear = button.getAttribute('data-bs-startyear');
+        var endYear = button.getAttribute('data-bs-endyear');
+
+        var mugDescription = button.getAttribute('data-bs-mugdescription');
+        var mugDetail = button.getAttribute('data-bs-mugdetail');
+        var mugIsUsed = button.getAttribute('data-bs-isused');
+        var mugHasLabel = button.getAttribute('data-bs-haslabel');
+        console.log("mugHasLabel:", mugHasLabel);
+        console.log("mugIsUsed:", mugIsUsed);
+
+        // Update the modal content dynamically
+        document.getElementById('modalMugName').textContent = mugName;
+        document.getElementById('modalMugImage').src = mugImage;
+        document.getElementById('modalStartYear').textContent = "Start Year: " + startYear;
+        document.getElementById('modalEndYear').textContent = "End Year: " + (endYear ? endYear : "Still in production");
+        document.getElementById('mugDetails').value = mugDetail;
+        document.getElementById('mugDescription').value = mugDescription;
+        
+        if (mugHasLabel === true || mugHasLabel === "True") {
+            document.getElementById('mugHasLabel').checked = true;
+        } else {
+            document.getElementById('mugHasLabel').checked = false;
+        }
+        if (mugIsUsed === true || mugIsUsed === "True") {
+            document.getElementById('mugIsUsed').checked = true;
+        } else {
+            document.getElementById('mugIsUsed').checked = false;
+        }
+        document.getElementById('mugId').value = mugId; 
+        document.getElementById('deleteMugId').value = deleteMugId;
+        
+       
+    });
+    // Before submitting the form, capture modal inputs into hidden fields
+    document.querySelector('.save-btn').addEventListener('click', function () {
+        document.getElementById('description').value = document.getElementById('mugDescription').value;
+        document.getElementById('details').value = document.getElementById('mugDetails').value;
+        document.getElementById('isUsed').value = document.getElementById('mugIsUsed').checked;
+        document.getElementById('hasLabel').value = document.getElementById('mugHasLabel').checked;
+    });
+</script>
